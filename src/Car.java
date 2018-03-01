@@ -4,11 +4,10 @@ public class Car {
 	private int desty;
 	private boolean hasPassenger;
 
-	public Car(int destx, int desty, boolean hasPassenger) {
-		super();
+	public Car(int destx, int desty) {
 		this.destx = destx;
 		this.desty = desty;
-		this.hasPassenger = hasPassenger;
+		this.hasPassenger = false;
 	}
 
 	public void pickup(int passx, int passy) {
