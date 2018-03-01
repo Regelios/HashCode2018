@@ -6,6 +6,7 @@ public class City {
     private Cordnations[][] Grid ;
     private ArrayList<Ride> rideList = new ArrayList<>();
 
+
     public City(int Row, int Columms,int Amount) {
         Grid = new Cordnations[Row][Columms];
         startingCars(Amount);
@@ -27,5 +28,4 @@ public class City {
         
 
     }
-
 }
