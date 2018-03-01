@@ -3,11 +3,9 @@ import java.util.ArrayList;
 public class Cordnations {
 
     private ArrayList<Car> pSpace;
-    private ArrayList<Ride> customers;
 
     public Cordnations(){
         pSpace = new ArrayList<Car>();
-        customers = new ArrayList<Ride>();
     }
 
     public ArrayList<Car> getpSpace() {
