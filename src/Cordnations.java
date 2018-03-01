@@ -15,4 +15,9 @@ public class Cordnations {
     public void setpSpace(ArrayList<Car> pSpace) {
         this.pSpace = pSpace;
     }
+
+    public void addCar(){
+        pSpace.add(new Car(0,0));
+    }
+
 }
