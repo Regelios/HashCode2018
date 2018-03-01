@@ -15,12 +15,4 @@ public class Cordnations {
     public void setpSpace(ArrayList<Car> pSpace) {
         this.pSpace = pSpace;
     }
-
-    public ArrayList<Ride> getCustomers() {
-        return customers;
-    }
-
-    public void setCustomers(ArrayList<Ride> customers) {
-        this.customers = customers;
-    }
 }
